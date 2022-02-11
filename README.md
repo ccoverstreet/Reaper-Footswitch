@@ -13,6 +13,11 @@ This project is a ATmega32u4 based footswitch for sending keyboard commands to a
 - 22 AWG wire
 - 2k Ohm resistors (same as number of foot switches)
 
+
+## Circuit Diagram
+
+![Circuit Diagram](/assets/reaper_footswitch_diagram.png)
+
 ## Arduino Code
 
 The code for the leonardo type arduino is located within [reaper_leonardo](/reaper_leonardo). 
@@ -28,3 +33,4 @@ An interrupt-based approach was trialed, but showed worse performance on the ava
 The Arduino IDE or `arduino-cli` can be used to upload the sketch to the board.
 
 For the Arduino CLI, make sure to attach the sketch to the correct board. The makefile in the sketch directory will compile and upload the sketch
+
