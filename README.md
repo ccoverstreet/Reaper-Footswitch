@@ -12,6 +12,7 @@ This project is a ATmega32u4 based footswitch for sending keyboard commands to a
 - Frame/box material (whatever works)
 - 22 AWG wire
 - 2k Ohm resistors (same as number of foot switches)
+- Single-row female header pins
 
 
 ## Circuit Diagram
